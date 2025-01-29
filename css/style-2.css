@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(186, 6, 6);
+}
+
+img {
+    max-width: 100%;
+    margin: auto;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, li {
+    margin: 10px;
+}
+
+header {
+    max-width: 1200px;
+    background-color: rgb(115, 23, 23);
+    color: white;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+}
+
+header ul {
+    display: flex;
+    list-style-type: none;
+    gap: 16px;
+}
+
+header ul  a {
+    text-decoration: none;
+    color: #fff;
+}
+
+section.card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 1200px;
+    margin: 40px auto;
+    gap: 16px;
+}
+
+section.card img {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.hero {
+    max-width: 1200px;
+    margin: auto;
+    padding-top: 58px;
+}
+
+.hero div {
+    max-width: 500px;
+}
+
+.narow {
+    max-width: 1200px;
+    margin: auto;
+    padding-top: 80px;
+}
+
+.narow div {
+    max-width: 500px;
+}
+
+.sora {
+    max-width: 1200px;
+    margin: auto;
+    padding-top: 80px;
+}
+
+.sora div {
+    max-width: 500px;
+}
+
+.balty {
+    max-width: 1200px;
+    margin: auto;
+    padding-top: 80px;
+}
+
+.balty div {
+    max-width: 500px;
+}
+
+footer {
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 16px;
+}
+
+section h1 {
+    text-align: center;
+    color: white;
+}
+
+footer h1 {
+    display:flex;
+    font-size: 10px;
+    color: white;
+    list-style-type: none;
+    gap: 16px;
+}
